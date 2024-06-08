@@ -1,10 +1,10 @@
 import { useTranslation } from "react-i18next"
 
 const App = () => {
-  useTranslation();
+  const {t}= useTranslation();
   return (
     <div className="container">
-      <h1></h1>
+      <h1>{t("greeting")}</h1>
     </div>
   )
 }

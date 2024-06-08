@@ -13,6 +13,7 @@ i18n
         translation: {
           greeting: "hello,welcome",
         },
+      },
       he: {
         translation: {
           greeting: "שלום,ברוכים הבאים",
