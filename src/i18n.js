@@ -8,24 +8,24 @@ i18n
   .init({
     debug: true,
     fallbackLng: "en",
-    returnObjects:true,
+    returnObjects: true,
     resources: {
       en: {
         translation: {
           greeting: "hello,welcome",
-          description:{
-            line1:"this is line 1 language of english",
-            line2:"this is line 2 language of english",
-          }
+          description: {
+            line1: "this is line 1 language of english",
+            line2: "this is line 2 language of english",
+          },
         },
       },
       he: {
         translation: {
           greeting: "שלום,ברוכים הבאים",
-          description:{
-            line1:"זה שורה 1 של השפה העברית",
-            line2:"זה שורה 2 של השפה העברית",
-          }
+          description: {
+            line1: "זה שורה 1 של השפה העברית",
+            line2: "זה שורה 2 של השפה העברית",
+          },
         },
       },
     },
