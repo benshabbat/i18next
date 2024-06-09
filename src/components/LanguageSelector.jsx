@@ -1,11 +1,15 @@
 const languages = [
-    {code:"en",lang:"English"},
-    {code:"he",lang:"Hebrew"},
-]
+  { code: "en", lang: "English" },
+  { code: "he", lang: "Hebrew" },
+];
 const LanguageSelector = () => {
   return (
-    <div>LanguageSelector</div>
-  )
-}
+    <div className="btn-container">
+      {languages.map((lng) => {
+        return <button key={lng.code}>{lng?.lang}</button>;
+      })}
+    </div>
+  );
+};
 
-export default LanguageSelector
+export default LanguageSelector;
