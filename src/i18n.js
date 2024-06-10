@@ -14,7 +14,7 @@ i18n
         translation: {
           greeting: "hello,welcome",
           description: {
-            line1: "this is line 1 language of english",
+            line1: "this is line 1 language of english {{example}}",
             line2: "this is line 2 language of english",
           },
         },
@@ -24,7 +24,7 @@ i18n
           greeting: "שלום,ברוכים הבאים",
           description: {
             line1: "זה שורה 1 של השפה העברית",
-            line2: "זה שורה 2 של השפה העברית",
+            line2: "{{example}} זה שורה 2 של השפה העברית",
           },
         },
       },

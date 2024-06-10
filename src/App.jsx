@@ -3,7 +3,9 @@ import LanguageSelector from "./components/LanguageSelector";
 
 const App = () => {
   const {t}= useTranslation();
-  const {line1,line2}=t("description");
+  const {line1,line2}=t("description",{
+    example:"test"
+  });
   return (
     <div className="container">
       <LanguageSelector/>
